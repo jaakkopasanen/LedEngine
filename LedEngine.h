@@ -1,5 +1,4 @@
-#ifndef LedEngineH
-#define LedEngineH
+#pragma once
 
 /**
  * Data structure for CIE 1976 Luv coordinates
@@ -286,5 +285,3 @@ private:
 	 */
 	float findCoefficient_(const Luv PT, const Luv P0, const Luv P1, const Luv P2, const float rightHandFit[3], const float leftHandFit[3]);
 };
-
-#endif
